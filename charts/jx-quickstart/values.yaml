@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: jx-docker-registry.cicd.visionweb.com/kc0isg/jx-quickstart
-  tag: 0.0.2
+  repository: 10.43.166.138:5000/kc0isg/jx-quickstart
+  tag: 0.0.7
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
